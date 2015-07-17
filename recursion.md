@@ -33,7 +33,6 @@ fact(4)
 24
 ```
 
-
 Tail Recursive Factorial
 ------------------------
 ```ruby
@@ -43,3 +42,4 @@ def fact2(n, acc=1)
 end
 ```
 End result is 6, result is not recursively calculated
+No more mathing required
