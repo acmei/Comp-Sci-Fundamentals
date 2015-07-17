@@ -14,6 +14,11 @@ def fib(n)
   fib(n - 1) + fib(n - 2)
 end
 
+# if 0 or 1 letters, return true (base case)
+# if first letter and last letter match
+  # recurse on all but first and last letter -> return that result
+# if don't match
+  # return false
 def pal(s)
 end
 
