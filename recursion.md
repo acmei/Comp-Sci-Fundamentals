@@ -30,4 +30,16 @@ fact(4)
 # => 4 * ( 3 * 2 )
 # => 4 * ( 6 )
 # => 24
+24
 ```
+
+
+Tail Recursive Factorial
+------------------------
+```ruby
+def fact2(n, acc=1)
+  return acc if n <= 1
+  fact2(n - 1, n * acc)
+end
+```
+End result is 6, result is not recursively calculated
